@@ -1,0 +1,6 @@
+filename,prediction,ground_truth,confidence,real_probability,fake_probability
+real/img2.jpg,FAKE,REAL,100.0,0.0,100.0
+real/img4.jpg,FAKE,REAL,100.0,0.0,100.0
+real/img5.jpg,FAKE,REAL,100.0,0.0,100.0
+fake/img6.webp,REAL,FAKE,100.0,100.0,0.0
+fake/img8.webp,REAL,FAKE,100.0,100.0,0.0

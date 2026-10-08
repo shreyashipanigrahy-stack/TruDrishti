@@ -1,0 +1,547 @@
+/* ================================================================
+   DeepScan — Global Design System
+   Dark-first, glassmorphism aesthetic
+   ================================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ----------------------------------------------------------------
+   CSS custom properties (tokens)
+   ---------------------------------------------------------------- */
+:root {
+  /* Surfaces */
+  --bg-primary:      #050a14;
+  --bg-secondary:    #090f1d;
+  --bg-card:         rgba(15, 23, 42, 0.7);
+  --bg-card-hover:   rgba(15, 23, 42, 0.9);
+  --bg-glass:        rgba(255, 255, 255, 0.04);
+  --bg-glass-hover:  rgba(255, 255, 255, 0.07);
+  --bg-elevated:     #0f172a;
+  --bg-hover:        rgba(255, 255, 255, 0.07);
+
+  /* Borders */
+  --border-subtle:   rgba(255, 255, 255, 0.06);
+  --border-brand:    rgba(37, 99, 235, 0.3);
+  --border-danger:   rgba(244, 63, 94, 0.4);
+  --border-strong:   rgba(37, 99, 235, 0.3);
+  --border-divider:  rgba(255, 255, 255, 0.08);
+
+  /* Brand */
+  --cyan:            #2563EB;
+  --cyan-glow:       rgba(37, 99, 235, 0.35);
+  --violet:          #8b5cf6;
+  --violet-glow:     rgba(139, 92, 246, 0.35);
+  --primary-hover:   #1D4ED8;
+  --primary-active:  #1E40AF;
+  --primary-light:   rgba(37, 99, 235, 0.12);
+
+  /* Text */
+  --text-primary:    #f1f5f9;
+  --text-secondary:  #94a3b8;
+  --text-muted:      #475569;
+  --text-disabled:   #475569;
+  --text-white:      #FFFFFF;
+
+  /* Semantic */
+  --real-color:      #22d3ee;
+  --fake-color:      #f43f5e;
+  --real-glow:       rgba(34, 211, 238, 0.3);
+  --fake-glow:       rgba(244, 63, 94, 0.3);
+
+  --bg-success:      rgba(34, 211, 238, 0.12);
+  --border-success:  rgba(34, 211, 238, 0.35);
+  --bg-danger:       rgba(244, 63, 94, 0.12);
+  --border-danger:   rgba(244, 63, 94, 0.35);
+
+  /* Semantic status maps */
+  --status-success:     #22d3ee;
+  --status-success-bg:  rgba(34, 211, 238, 0.12);
+  --status-warning:     #fbbf24;
+  --status-warning-bg:  rgba(251, 191, 36, 0.12);
+  --status-error:       #f43f5e;
+  --status-error-bg:    rgba(244, 63, 94, 0.12);
+  --status-info:        #8b5cf6;
+  --status-info-bg:     rgba(139, 92, 246, 0.12);
+
+  /* Badge confidence */
+  --badge-high-bg:      rgba(34, 211, 238, 0.12);
+  --badge-high-text:    #22d3ee;
+  --badge-med-bg:       rgba(251, 191, 36, 0.12);
+  --badge-med-text:     #fbbf24;
+  --badge-low-bg:       rgba(244, 63, 94, 0.12);
+  --badge-low-text:     #f43f5e;
+}
+
+.light {
+  /* Surfaces */
+  --bg-primary:      #F8FAFC;
+  --bg-secondary:    #F1F5F9;
+  --bg-card:         #FFFFFF;
+  --bg-card-hover:   #F8FAFC;
+  --bg-glass:        rgba(37, 99, 235, 0.04);
+  --bg-glass-hover:  rgba(37, 99, 235, 0.08);
+  --bg-elevated:     #FFFFFF;
+  --bg-hover:        #F8FAFC;
+
+  /* Borders */
+  --border-subtle:   #E2E8F0;
+  --border-strong:   #CBD5E1;
+  --border-brand:    #CBD5E1;
+  --border-danger:   #FCA5A5;
+  --border-divider:  #E5E7EB;
+
+  /* Brand Primary */
+  --cyan:            #2563EB;
+  --cyan-glow:       rgba(37, 99, 235, 0.15);
+  --violet:          #0EA5E9;
+  --primary-hover:   #1D4ED8;
+  --primary-active:  #1E40AF;
+  --primary-light:   #DBEAFE;
+
+  /* Text */
+  --text-primary:    #0F172A;
+  --text-secondary:  #475569;
+  --text-muted:      #64748B;
+  --text-disabled:   #94A3B8;
+  --text-white:      #FFFFFF;
+
+  /* Semantic colors */
+  --real-color:      #16A34A;
+  --fake-color:      #DC2626;
+  --real-glow:       rgba(22, 163, 74, 0.15);
+  --fake-glow:       rgba(220, 38, 38, 0.15);
+
+  --bg-success:      #DCFCE7;
+  --border-success:  #BBF7D0;
+  --bg-danger:       #FEE2E2;
+  --border-danger:   #FCA5A5;
+
+  /* Semantic status maps */
+  --status-success:     #16A34A;
+  --status-success-bg:  #DCFCE7;
+  --status-warning:     #F59E0B;
+  --status-warning-bg:  #FEF3C7;
+  --status-error:       #DC2626;
+  --status-error-bg:    #FEE2E2;
+  --status-info:        #0EA5E9;
+  --status-info-bg:     #E0F2FE;
+
+  /* Badge confidence */
+  --badge-high-bg:      #DCFCE7;
+  --badge-high-text:    #166534;
+  --badge-med-bg:       #FEF3C7;
+  --badge-med-text:     #92400E;
+  --badge-low-bg:       #FEE2E2;
+  --badge-low-text:     #991B1B;
+}
+
+.light .bg-mesh {
+  background: radial-gradient(circle at 50% 50%, rgba(37, 99, 235, 0.03) 0%, #F8FAFC 100%);
+}
+
+.light .bg-grid {
+  background-image:
+    linear-gradient(rgba(15, 23, 42, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(15, 23, 42, 0.03) 1px, transparent 1px);
+}
+
+.light .skeleton {
+  background: linear-gradient(
+    90deg,
+    rgba(15, 23, 42, 0.02) 0%,
+    rgba(15, 23, 42, 0.06) 50%,
+    rgba(15, 23, 42, 0.02) 100%
+  );
+  background-size: 500px 100%;
+}
+
+
+/* ----------------------------------------------------------------
+   Base resets
+   ---------------------------------------------------------------- */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100vh;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* ----------------------------------------------------------------
+   Background mesh / grid
+   ---------------------------------------------------------------- */
+.bg-mesh {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 80% 60% at 20% 10%, rgba(0,180,230,0.08) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 50% at 80% 80%, rgba(139,92,246,0.08) 0%, transparent 60%),
+    radial-gradient(ellipse 40% 40% at 50% 50%, rgba(0,180,230,0.04) 0%, transparent 70%);
+}
+
+.bg-grid {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+/* ----------------------------------------------------------------
+   Glass card
+   ---------------------------------------------------------------- */
+.glass-card {
+  background: var(--bg-card);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid var(--border-subtle);
+  border-radius: 1rem;
+  transition: background 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.glass-card:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border-brand);
+}
+
+/* ----------------------------------------------------------------
+   Gradient text
+   ---------------------------------------------------------------- */
+.gradient-text {
+  color: var(--cyan);
+  font-weight: 800;
+}
+
+.light .gradient-text {
+  color: var(--cyan);
+}
+
+/* ----------------------------------------------------------------
+   Buttons
+   ---------------------------------------------------------------- */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 2rem;
+  background: var(--cyan);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+  border-radius: 0.75rem;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 20px var(--cyan-glow);
+}
+
+.btn-primary:hover:not(:disabled) {
+  opacity: 0.9;
+  transform: translateY(-1px);
+  box-shadow: 0 8px 30px var(--cyan-glow);
+}
+
+.btn-primary:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.btn-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* ----------------------------------------------------------------
+   Skeleton loader
+   ---------------------------------------------------------------- */
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    rgba(255,255,255,0.04) 0%,
+    rgba(255,255,255,0.10) 50%,
+    rgba(255,255,255,0.04) 100%
+  );
+  background-size: 500px 100%;
+  animation: shimmer 1.6s infinite;
+  border-radius: 0.5rem;
+}
+
+/* ----------------------------------------------------------------
+   Prediction badge
+   ---------------------------------------------------------------- */
+.badge-real {
+  background: rgba(34, 211, 238, 0.12);
+  border: 1px solid rgba(34, 211, 238, 0.35);
+  color: var(--real-color);
+  box-shadow: 0 0 16px var(--real-glow);
+}
+
+.badge-fake {
+  background: rgba(244, 63, 94, 0.12);
+  border: 1px solid rgba(244, 63, 94, 0.35);
+  color: var(--fake-color);
+  box-shadow: 0 0 16px var(--fake-glow);
+}
+
+/* ----------------------------------------------------------------
+   Probability bar
+   ---------------------------------------------------------------- */
+.prob-bar-track {
+  height: 8px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.06);
+  overflow: hidden;
+}
+
+.prob-bar-fill-real {
+  height: 100%;
+  border-radius: 999px;
+  background: var(--real-color);
+  transition: width 1s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 0 10px rgba(34,211,238,0.5);
+}
+
+.prob-bar-fill-fake {
+  height: 100%;
+  border-radius: 999px;
+  background: var(--fake-color);
+  transition: width 1s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 0 10px rgba(244,63,94,0.5);
+}
+
+/* ----------------------------------------------------------------
+   Scan line animation
+   ---------------------------------------------------------------- */
+.scan-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.scan-line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--cyan), transparent);
+  animation: scan 2.5s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 10;
+}
+
+@keyframes scan {
+  0%   { top: 0%;   opacity: 0; }
+  10%  { opacity: 1; }
+  90%  { opacity: 1; }
+  100% { top: 100%; opacity: 0; }
+}
+
+/* ----------------------------------------------------------------
+   Image comparison tab
+   ---------------------------------------------------------------- */
+.img-tab-active {
+  background: rgba(0, 180, 230, 0.15);
+  border-color: var(--border-brand) !important;
+  color: var(--cyan) !important;
+}
+
+/* ----------------------------------------------------------------
+   Radix Tabs override
+   ---------------------------------------------------------------- */
+[data-state="active"] .tab-indicator {
+  opacity: 1;
+}
+
+/* ----------------------------------------------------------------
+   Scrollbar styling
+   ---------------------------------------------------------------- */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.12);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+/* ----------------------------------------------------------------
+   Utility animations
+   ---------------------------------------------------------------- */
+@keyframes shimmer {
+  0%   { background-position: -500px 0; }
+  100% { background-position:  500px 0; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse-ring {
+  0%, 100% { transform: scale(1);   opacity: 0.6; }
+  50%       { transform: scale(1.1); opacity: 1;   }
+}
+
+.animate-pulse-ring {
+  animation: pulse-ring 2s ease-in-out infinite;
+}
+
+/* ----------------------------------------------------------------
+   Print Media Styles (Export Report PDF formatting)
+   ---------------------------------------------------------------- */
+@media print {
+  /* Hide interactive, navigation and background decorative elements */
+  aside,
+  header,
+  button,
+  .bg-mesh,
+  .bg-grid,
+  .no-print,
+  #analyse-another-btn,
+  .btn-primary {
+    display: none !important;
+  }
+
+  /* Reset body and container constraints for printing layout */
+  body, html {
+    background: #ffffff !important;
+    color: #0f172a !important;
+    font-size: 11pt !important;
+  }
+
+  /* Expand content area to fill page width */
+  .flex-1 {
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: block !important;
+  }
+
+  /* Force cards to display clearly in print format */
+  .glass-card {
+    background: #ffffff !important;
+    border: 1px solid #cbd5e1 !important;
+    box-shadow: none !important;
+    color: #0f172a !important;
+    page-break-inside: avoid;
+    margin-bottom: 20px !important;
+  }
+
+  /* Ensure line graphs and pictures fit the page and don't break mid-element */
+  svg, img, canvas {
+    page-break-inside: avoid;
+  }
+
+  /* Adjust headings and paragraphs to pure print colors */
+  h1, h2, h3, h4, h5, h6, strong {
+    color: #0f172a !important;
+  }
+
+  span, p, div {
+    color: #334155 !important;
+  }
+
+  /* Real & Fake Badges */
+  .badge-real {
+    background: #ecfdf5 !important;
+    border: 1px solid #10b981 !important;
+    color: #047857 !important;
+    box-shadow: none !important;
+  }
+
+  .badge-fake {
+    background: #fff1f2 !important;
+    border: 1px solid #f43f5e !important;
+    color: #be123c !important;
+    box-shadow: none !important;
+  }
+
+  /* Enable background and element coloring in generated PDF */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}
+
+/* ----------------------------------------------------------------
+   Analyse Button & Pipeline styling overrides
+   ---------------------------------------------------------------- */
+.btn-analyse {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  border-radius: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+  font-family: monospace;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  border: 1px solid #00f5a0;
+  background: rgba(6, 78, 59, 0.25);
+  color: #00f5a0;
+  box-shadow: 0 0 15px rgba(0, 245, 160, 0.1);
+}
+
+.btn-analyse:hover:not(:disabled) {
+  border-color: #00f5a0;
+  background: rgba(6, 78, 59, 0.4);
+}
+
+.btn-analyse:disabled {
+  border-color: var(--border-subtle) !important;
+  background: var(--bg-glass) !important;
+  color: var(--text-muted) !important;
+  cursor: not-allowed;
+  opacity: 0.5;
+  box-shadow: none;
+}
+
+.light .btn-analyse:not(:disabled) {
+  background: var(--cyan);
+  color: var(--text-white);
+  border-color: var(--primary-active);
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.2);
+}
+
+.light .btn-analyse:hover:not(:disabled) {
+  background: var(--primary-hover);
+  border-color: var(--primary-active);
+  box-shadow: 0 6px 20px rgba(37, 99, 235, 0.35);
+}
+
+.light .btn-analyse:disabled {
+  border-color: var(--border-subtle) !important;
+  background: var(--bg-secondary) !important;
+  color: var(--text-disabled) !important;
+  opacity: 0.6 !important;
+  font-weight: 800;
+  box-shadow: none !important;
+}

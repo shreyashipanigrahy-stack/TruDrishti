@@ -1,0 +1,119 @@
+{
+  "batch_id": "eval_ee2995f1-5680-4749-9a48-1708271d7b06",
+  "timestamp": "2026-06-18T10:14:59.718540",
+  "metrics": {
+    "accuracy": 50.0,
+    "precision": 50.0,
+    "recall": 100.0,
+    "f1_score": 66.67,
+    "roc_auc": 50.0,
+    "confusion_matrix": {
+      "tp": 5,
+      "tn": 0,
+      "fp": 5,
+      "fn": 0
+    }
+  },
+  "predictions": [
+    {
+      "filename": "real/img1.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "real/img2.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "real/img3.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "real/img4.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "real/img5.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "fake/img6.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "fake/img7.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "fake/img8.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "fake/img9.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "fake/img10.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    }
+  ]
+}

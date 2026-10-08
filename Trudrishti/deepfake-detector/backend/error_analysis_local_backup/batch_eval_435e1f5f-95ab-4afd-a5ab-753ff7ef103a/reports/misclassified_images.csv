@@ -1,0 +1,3 @@
+batch_id,timestamp,filename,ground_truth,prediction,confidence,error_type
+eval_435e1f5f-95ab-4afd-a5ab-753ff7ef103a,2026-06-16T05:24:51.017371,real/img1.jpg,REAL,FAKE,1.0,FALSE_POSITIVE
+eval_435e1f5f-95ab-4afd-a5ab-753ff7ef103a,2026-06-16T05:24:51.017371,real/img2.jpg,REAL,FAKE,1.0,FALSE_POSITIVE

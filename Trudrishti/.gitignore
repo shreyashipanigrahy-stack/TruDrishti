@@ -1,0 +1,49 @@
+# Python virtual environment
+v/
+.venv/
+env/
+ENV/
+
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Model weights and binaries
+*.pth
+*.pt
+*.h5
+
+# Local databases
+*.db
+*.sqlite
+
+# Environment configs (containing private secrets/keys)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Python caches and compiles
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Frontend builds
+dist/
+build/
+.next/
+out/
+
+# System and editor files
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp

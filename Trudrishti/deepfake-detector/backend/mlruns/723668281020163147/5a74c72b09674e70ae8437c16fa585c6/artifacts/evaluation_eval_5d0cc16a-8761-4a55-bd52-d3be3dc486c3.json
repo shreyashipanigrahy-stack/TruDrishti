@@ -1,0 +1,2519 @@
+{
+  "batch_id": "eval_5d0cc16a-8761-4a55-bd52-d3be3dc486c3",
+  "timestamp": "2026-06-27T09:19:35.472020",
+  "metrics": {
+    "accuracy": 96.4,
+    "precision": 97.54,
+    "recall": 95.2,
+    "f1_score": 96.36,
+    "roc_auc": 96.384,
+    "confusion_matrix": {
+      "tp": 119,
+      "tn": 122,
+      "fp": 3,
+      "fn": 6
+    }
+  },
+  "predictions": [
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/000014.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/000023.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/000024.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/000028.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/000030.jpg",
+      "prediction": "FAKE",
+      "confidence": 75.57,
+      "real_probability": 24.43,
+      "fake_probability": 75.57,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/000032.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/000045.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/000073.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/000078.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/000079.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/000082.jpg",
+      "prediction": "FAKE",
+      "confidence": 83.82,
+      "real_probability": 16.18,
+      "fake_probability": 83.82,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/000088.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/000092.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/000098.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/000099.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/000100.jpg",
+      "prediction": "FAKE",
+      "confidence": 97.56,
+      "real_probability": 2.44,
+      "fake_probability": 97.56,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/000104.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/000105.jpg",
+      "prediction": "FAKE",
+      "confidence": 54.76,
+      "real_probability": 45.24,
+      "fake_probability": 54.76,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/000335.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/000336.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/000418.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/000421.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/000424.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/199478.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/199484.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/199487.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/199491.jpg",
+      "prediction": "FAKE",
+      "confidence": 90.11,
+      "real_probability": 9.89,
+      "fake_probability": 90.11,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/199492.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/199493.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/199495.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/199496.jpg",
+      "prediction": "FAKE",
+      "confidence": 86.01,
+      "real_probability": 13.99,
+      "fake_probability": 86.01,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/199504.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/199505.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/199506.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/199510.jpg",
+      "prediction": "FAKE",
+      "confidence": 99.99,
+      "real_probability": 0.01,
+      "fake_probability": 99.99,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/199513.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/199517.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/199520.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/199521.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/2tg5.jpeg",
+      "prediction": "FAKE",
+      "confidence": 56.06,
+      "real_probability": 43.94,
+      "fake_probability": 56.06,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/503e32790987b1c8bcf299158071.webp",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/567.jpeg",
+      "prediction": "FAKE",
+      "confidence": 79.04,
+      "real_probability": 20.96,
+      "fake_probability": 79.04,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/5h.jpeg",
+      "prediction": "FAKE",
+      "confidence": 99.96,
+      "real_probability": 0.04,
+      "fake_probability": 99.96,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/654.jpeg",
+      "prediction": "FAKE",
+      "confidence": 92.71,
+      "real_probability": 7.29,
+      "fake_probability": 92.71,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/66.jpeg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/67647.jpeg",
+      "prediction": "FAKE",
+      "confidence": 57.6,
+      "real_probability": 42.4,
+      "fake_probability": 57.6,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/86.jpeg",
+      "prediction": "FAKE",
+      "confidence": 94.59,
+      "real_probability": 5.41,
+      "fake_probability": 94.59,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/celeb2.webp",
+      "prediction": "FAKE",
+      "confidence": 93.86,
+      "real_probability": 6.14,
+      "fake_probability": 93.86,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Copy of 24.jpeg",
+      "prediction": "REAL",
+      "confidence": 99.53,
+      "real_probability": 99.53,
+      "fake_probability": 0.47,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Copy of 2d.jpeg",
+      "prediction": "REAL",
+      "confidence": 99.78,
+      "real_probability": 99.78,
+      "fake_probability": 0.22,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Copy of 2r211.jpeg",
+      "prediction": "REAL",
+      "confidence": 90.03,
+      "real_probability": 90.03,
+      "fake_probability": 9.97,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Copy of 2r2r.jpeg",
+      "prediction": "REAL",
+      "confidence": 99.34,
+      "real_probability": 99.34,
+      "fake_probability": 0.66,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Copy of 32.jpeg",
+      "prediction": "REAL",
+      "confidence": 67.59,
+      "real_probability": 67.59,
+      "fake_probability": 32.41,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Copy of 3LzX2LODD6rGxQ0bessM--2--9aq0n_2x.webp",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Copy of 53g3.jpeg",
+      "prediction": "FAKE",
+      "confidence": 52.99,
+      "real_probability": 47.01,
+      "fake_probability": 52.99,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Copy of 654.jpeg",
+      "prediction": "FAKE",
+      "confidence": 92.71,
+      "real_probability": 7.29,
+      "fake_probability": 92.71,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Copy of 66.jpeg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Copy of Copy of 082a797d-dea8-40e3-8a11-3648c93379e8.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Copy of Copy of 46217529-2cf2-4c1b-a494-6946d388a29e.png",
+      "prediction": "FAKE",
+      "confidence": 50.48,
+      "real_probability": 49.52,
+      "fake_probability": 50.48,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Copy of Copy of a4c92dbf-9d05-4599-8b83-655a81b2001d.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Copy of Copy of fc66b0b2-aaa3-40fa-8321-0ee9e33f1e1a.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Copy of Copy of Gemini_Generated_Image_vebrkdvebrkdvebr.png",
+      "prediction": "FAKE",
+      "confidence": 62.19,
+      "real_probability": 37.81,
+      "fake_probability": 62.19,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Copy of Face (90).jpeg",
+      "prediction": "REAL",
+      "confidence": 83.8,
+      "real_probability": 83.8,
+      "fake_probability": 16.2,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Copy of Face - 2026-05-19T182725.872.jpeg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Copy of Gemini_Generated_Image_3.PNG",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Copy of new-0-realistic-AI-people-maker-1.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Copy of v3_0060665.jpg",
+      "prediction": "FAKE",
+      "confidence": 72.27,
+      "real_probability": 27.73,
+      "fake_probability": 72.27,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/fa37f264fd6fd6e0e094aed692d5.webp",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Face (35).jpeg",
+      "prediction": "FAKE",
+      "confidence": 65.8,
+      "real_probability": 34.2,
+      "fake_probability": 65.8,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Face (36).jpeg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Face (39).jpeg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Face (41).jpeg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Face (50).jpeg",
+      "prediction": "FAKE",
+      "confidence": 73.9,
+      "real_probability": 26.1,
+      "fake_probability": 73.9,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Face (51).jpeg",
+      "prediction": "FAKE",
+      "confidence": 58.28,
+      "real_probability": 41.72,
+      "fake_probability": 58.28,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Face (57).jpeg",
+      "prediction": "FAKE",
+      "confidence": 52.66,
+      "real_probability": 47.34,
+      "fake_probability": 52.66,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Face (60).jpeg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Face (62).jpeg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Face (73).jpeg",
+      "prediction": "FAKE",
+      "confidence": 71.81,
+      "real_probability": 28.19,
+      "fake_probability": 71.81,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Face (82).jpeg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Face (84).jpeg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Face (94).jpeg",
+      "prediction": "FAKE",
+      "confidence": 58.95,
+      "real_probability": 41.05,
+      "fake_probability": 58.95,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Face (95).jpeg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Face (97).jpeg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Face (99).jpeg",
+      "prediction": "FAKE",
+      "confidence": 87.1,
+      "real_probability": 12.9,
+      "fake_probability": 87.1,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Face - 2026-05-19T182725.872.jpeg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Face - 2026-05-19T182736.748.jpeg",
+      "prediction": "FAKE",
+      "confidence": 70.17,
+      "real_probability": 29.83,
+      "fake_probability": 70.17,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Face - 2026-05-19T182853.272.jpeg",
+      "prediction": "FAKE",
+      "confidence": 51.02,
+      "real_probability": 48.98,
+      "fake_probability": 51.02,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Face14.jpeg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Face17.jpeg",
+      "prediction": "FAKE",
+      "confidence": 79.76,
+      "real_probability": 20.24,
+      "fake_probability": 79.76,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Face3.jpeg",
+      "prediction": "FAKE",
+      "confidence": 86.89,
+      "real_probability": 13.11,
+      "fake_probability": 86.89,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Face9.jpeg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/fakeme.png",
+      "prediction": "FAKE",
+      "confidence": 62.25,
+      "real_probability": 37.75,
+      "fake_probability": 62.25,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Gemini_Generated_Image_1.PNG",
+      "prediction": "FAKE",
+      "confidence": 55.36,
+      "real_probability": 44.64,
+      "fake_probability": 55.36,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Gemini_Generated_Image_3.PNG",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Gemini_Generated_Image_9zt6r19zt6r19zt6.png",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Gemini_Generated_Image_gqccntgqccntgqcc.png",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Gemini_Generated_Image_jjhsrtjjhsrtjjhs.png",
+      "prediction": "FAKE",
+      "confidence": 99.98,
+      "real_probability": 0.02,
+      "fake_probability": 99.98,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Gemini_Generated_Image_kp2z64kp2z64kp2z.png",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/Image from iOS.jpg",
+      "prediction": "FAKE",
+      "confidence": 84.72,
+      "real_probability": 15.28,
+      "fake_probability": 84.72,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/v3_0060665.jpg",
+      "prediction": "FAKE",
+      "confidence": 72.27,
+      "real_probability": 27.73,
+      "fake_probability": 72.27,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/v3_0257016.jpg",
+      "prediction": "FAKE",
+      "confidence": 65.79,
+      "real_probability": 34.21,
+      "fake_probability": 65.79,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/v3_0267171.jpg",
+      "prediction": "FAKE",
+      "confidence": 50.19,
+      "real_probability": 49.81,
+      "fake_probability": 50.19,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/v3_0284778.jpg",
+      "prediction": "FAKE",
+      "confidence": 55.99,
+      "real_probability": 44.01,
+      "fake_probability": 55.99,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/v3_0285476.jpg",
+      "prediction": "FAKE",
+      "confidence": 58.22,
+      "real_probability": 41.78,
+      "fake_probability": 58.22,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/v3_0289186.jpg",
+      "prediction": "FAKE",
+      "confidence": 59.5,
+      "real_probability": 40.5,
+      "fake_probability": 59.5,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/v3_0332640.jpg",
+      "prediction": "FAKE",
+      "confidence": 55.16,
+      "real_probability": 44.84,
+      "fake_probability": 55.16,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/v3_0373220.jpg",
+      "prediction": "FAKE",
+      "confidence": 86.16,
+      "real_probability": 13.84,
+      "fake_probability": 86.16,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/v3_0379252.jpg",
+      "prediction": "FAKE",
+      "confidence": 65.77,
+      "real_probability": 34.23,
+      "fake_probability": 65.77,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/v3_0387047.jpg",
+      "prediction": "FAKE",
+      "confidence": 60.18,
+      "real_probability": 39.82,
+      "fake_probability": 60.18,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/v3_0514912.jpg",
+      "prediction": "FAKE",
+      "confidence": 56.77,
+      "real_probability": 43.23,
+      "fake_probability": 56.77,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/v3_0544388.jpg",
+      "prediction": "FAKE",
+      "confidence": 56.16,
+      "real_probability": 43.84,
+      "fake_probability": 56.16,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/v3_0576634.jpg",
+      "prediction": "FAKE",
+      "confidence": 66.46,
+      "real_probability": 33.54,
+      "fake_probability": 66.46,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/v3_0738039.jpg",
+      "prediction": "FAKE",
+      "confidence": 96.37,
+      "real_probability": 3.63,
+      "fake_probability": 96.37,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/v3_0749391.jpg",
+      "prediction": "FAKE",
+      "confidence": 68.81,
+      "real_probability": 31.19,
+      "fake_probability": 68.81,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/v3_0779703.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/v3_0780348.jpg",
+      "prediction": "FAKE",
+      "confidence": 53.87,
+      "real_probability": 46.13,
+      "fake_probability": 53.87,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/v3_0788144.jpg",
+      "prediction": "FAKE",
+      "confidence": 66.98,
+      "real_probability": 33.02,
+      "fake_probability": 66.98,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/v3_0823195.jpg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/v3_0873243.jpg",
+      "prediction": "FAKE",
+      "confidence": 57.12,
+      "real_probability": 42.88,
+      "fake_probability": 57.12,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/v3_0929870.jpg",
+      "prediction": "FAKE",
+      "confidence": 80.07,
+      "real_probability": 19.93,
+      "fake_probability": 80.07,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/v3_0986894.jpg",
+      "prediction": "FAKE",
+      "confidence": 54.16,
+      "real_probability": 45.84,
+      "fake_probability": 54.16,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/wh.jpeg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/WhatsApp Image 2026-05-08 at 12.04.22 (1).jpeg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/yada.jpeg",
+      "prediction": "FAKE",
+      "confidence": 67.7,
+      "real_probability": 32.3,
+      "fake_probability": 67.7,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Fake/zoro.jpeg",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "FAKE",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000021.jpg",
+      "prediction": "REAL",
+      "confidence": 99.67,
+      "real_probability": 99.67,
+      "fake_probability": 0.33,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000025.jpg",
+      "prediction": "REAL",
+      "confidence": 96.19,
+      "real_probability": 96.19,
+      "fake_probability": 3.81,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000026.jpg",
+      "prediction": "REAL",
+      "confidence": 99.67,
+      "real_probability": 99.67,
+      "fake_probability": 0.33,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000027.jpg",
+      "prediction": "REAL",
+      "confidence": 74.18,
+      "real_probability": 74.18,
+      "fake_probability": 25.82,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000029.jpg",
+      "prediction": "REAL",
+      "confidence": 100.0,
+      "real_probability": 100.0,
+      "fake_probability": 0.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000031.jpg",
+      "prediction": "REAL",
+      "confidence": 93.97,
+      "real_probability": 93.97,
+      "fake_probability": 6.03,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000038.jpg",
+      "prediction": "REAL",
+      "confidence": 99.98,
+      "real_probability": 99.98,
+      "fake_probability": 0.02,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000039.jpg",
+      "prediction": "REAL",
+      "confidence": 99.66,
+      "real_probability": 99.66,
+      "fake_probability": 0.34,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000040.jpg",
+      "prediction": "REAL",
+      "confidence": 96.47,
+      "real_probability": 96.47,
+      "fake_probability": 3.53,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000041.jpg",
+      "prediction": "REAL",
+      "confidence": 100.0,
+      "real_probability": 100.0,
+      "fake_probability": 0.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000042.jpg",
+      "prediction": "REAL",
+      "confidence": 100.0,
+      "real_probability": 100.0,
+      "fake_probability": 0.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000043.jpg",
+      "prediction": "REAL",
+      "confidence": 100.0,
+      "real_probability": 100.0,
+      "fake_probability": 0.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000044.jpg",
+      "prediction": "REAL",
+      "confidence": 100.0,
+      "real_probability": 100.0,
+      "fake_probability": 0.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000046.jpg",
+      "prediction": "REAL",
+      "confidence": 95.68,
+      "real_probability": 95.68,
+      "fake_probability": 4.32,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000047.jpg",
+      "prediction": "REAL",
+      "confidence": 99.97,
+      "real_probability": 99.97,
+      "fake_probability": 0.03,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000052.jpg",
+      "prediction": "REAL",
+      "confidence": 99.95,
+      "real_probability": 99.95,
+      "fake_probability": 0.05,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000054.jpg",
+      "prediction": "REAL",
+      "confidence": 98.54,
+      "real_probability": 98.54,
+      "fake_probability": 1.46,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000065.jpg",
+      "prediction": "REAL",
+      "confidence": 92.64,
+      "real_probability": 92.64,
+      "fake_probability": 7.36,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000074.jpg",
+      "prediction": "REAL",
+      "confidence": 98.81,
+      "real_probability": 98.81,
+      "fake_probability": 1.19,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000075.jpg",
+      "prediction": "REAL",
+      "confidence": 90.62,
+      "real_probability": 90.62,
+      "fake_probability": 9.38,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000076.jpg",
+      "prediction": "REAL",
+      "confidence": 51.32,
+      "real_probability": 51.32,
+      "fake_probability": 48.68,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000077.jpg",
+      "prediction": "REAL",
+      "confidence": 66.35,
+      "real_probability": 66.35,
+      "fake_probability": 33.65,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000080.jpg",
+      "prediction": "REAL",
+      "confidence": 53.88,
+      "real_probability": 53.88,
+      "fake_probability": 46.12,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000081.jpg",
+      "prediction": "REAL",
+      "confidence": 96.4,
+      "real_probability": 96.4,
+      "fake_probability": 3.6,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000085.jpg",
+      "prediction": "REAL",
+      "confidence": 61.18,
+      "real_probability": 61.18,
+      "fake_probability": 38.82,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000089.jpg",
+      "prediction": "REAL",
+      "confidence": 95.34,
+      "real_probability": 95.34,
+      "fake_probability": 4.66,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000090.jpg",
+      "prediction": "REAL",
+      "confidence": 99.7,
+      "real_probability": 99.7,
+      "fake_probability": 0.3,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000091.jpg",
+      "prediction": "REAL",
+      "confidence": 98.77,
+      "real_probability": 98.77,
+      "fake_probability": 1.23,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000093.jpg",
+      "prediction": "REAL",
+      "confidence": 93.79,
+      "real_probability": 93.79,
+      "fake_probability": 6.21,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000094.jpg",
+      "prediction": "REAL",
+      "confidence": 97.47,
+      "real_probability": 97.47,
+      "fake_probability": 2.53,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000095.jpg",
+      "prediction": "REAL",
+      "confidence": 99.2,
+      "real_probability": 99.2,
+      "fake_probability": 0.8,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000096.jpg",
+      "prediction": "REAL",
+      "confidence": 97.03,
+      "real_probability": 97.03,
+      "fake_probability": 2.97,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000097.jpg",
+      "prediction": "REAL",
+      "confidence": 68.1,
+      "real_probability": 68.1,
+      "fake_probability": 31.9,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000101.jpg",
+      "prediction": "REAL",
+      "confidence": 99.94,
+      "real_probability": 99.94,
+      "fake_probability": 0.06,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000102.jpg",
+      "prediction": "REAL",
+      "confidence": 96.94,
+      "real_probability": 96.94,
+      "fake_probability": 3.06,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000103.jpg",
+      "prediction": "REAL",
+      "confidence": 96.63,
+      "real_probability": 96.63,
+      "fake_probability": 3.37,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000106.jpg",
+      "prediction": "REAL",
+      "confidence": 85.17,
+      "real_probability": 85.17,
+      "fake_probability": 14.83,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000107.jpg",
+      "prediction": "REAL",
+      "confidence": 90.63,
+      "real_probability": 90.63,
+      "fake_probability": 9.37,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000276.jpg",
+      "prediction": "REAL",
+      "confidence": 60.23,
+      "real_probability": 60.23,
+      "fake_probability": 39.77,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000277.jpg",
+      "prediction": "REAL",
+      "confidence": 88.86,
+      "real_probability": 88.86,
+      "fake_probability": 11.14,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000278.jpg",
+      "prediction": "REAL",
+      "confidence": 99.36,
+      "real_probability": 99.36,
+      "fake_probability": 0.64,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000279.jpg",
+      "prediction": "REAL",
+      "confidence": 99.9,
+      "real_probability": 99.9,
+      "fake_probability": 0.1,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000280.jpg",
+      "prediction": "REAL",
+      "confidence": 95.66,
+      "real_probability": 95.66,
+      "fake_probability": 4.34,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000281.jpg",
+      "prediction": "REAL",
+      "confidence": 99.6,
+      "real_probability": 99.6,
+      "fake_probability": 0.4,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000282.jpg",
+      "prediction": "REAL",
+      "confidence": 98.74,
+      "real_probability": 98.74,
+      "fake_probability": 1.26,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000283.jpg",
+      "prediction": "REAL",
+      "confidence": 100.0,
+      "real_probability": 100.0,
+      "fake_probability": 0.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000284.jpg",
+      "prediction": "REAL",
+      "confidence": 97.74,
+      "real_probability": 97.74,
+      "fake_probability": 2.26,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000285.jpg",
+      "prediction": "REAL",
+      "confidence": 94.16,
+      "real_probability": 94.16,
+      "fake_probability": 5.84,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000303.jpg",
+      "prediction": "REAL",
+      "confidence": 99.09,
+      "real_probability": 99.09,
+      "fake_probability": 0.91,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000305.jpg",
+      "prediction": "REAL",
+      "confidence": 99.09,
+      "real_probability": 99.09,
+      "fake_probability": 0.91,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000331.jpg",
+      "prediction": "REAL",
+      "confidence": 98.66,
+      "real_probability": 98.66,
+      "fake_probability": 1.34,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000332.jpg",
+      "prediction": "REAL",
+      "confidence": 96.65,
+      "real_probability": 96.65,
+      "fake_probability": 3.35,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000333.jpg",
+      "prediction": "REAL",
+      "confidence": 100.0,
+      "real_probability": 100.0,
+      "fake_probability": 0.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000334.jpg",
+      "prediction": "REAL",
+      "confidence": 100.0,
+      "real_probability": 100.0,
+      "fake_probability": 0.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000337.jpg",
+      "prediction": "REAL",
+      "confidence": 98.31,
+      "real_probability": 98.31,
+      "fake_probability": 1.69,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000338.jpg",
+      "prediction": "REAL",
+      "confidence": 85.43,
+      "real_probability": 85.43,
+      "fake_probability": 14.57,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000339.jpg",
+      "prediction": "REAL",
+      "confidence": 98.68,
+      "real_probability": 98.68,
+      "fake_probability": 1.32,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000340.jpg",
+      "prediction": "REAL",
+      "confidence": 97.44,
+      "real_probability": 97.44,
+      "fake_probability": 2.56,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/000348.jpg",
+      "prediction": "REAL",
+      "confidence": 99.69,
+      "real_probability": 99.69,
+      "fake_probability": 0.31,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/199507.jpg",
+      "prediction": "REAL",
+      "confidence": 99.7,
+      "real_probability": 99.7,
+      "fake_probability": 0.3,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/199508.jpg",
+      "prediction": "REAL",
+      "confidence": 97.74,
+      "real_probability": 97.74,
+      "fake_probability": 2.26,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/199509.jpg",
+      "prediction": "REAL",
+      "confidence": 100.0,
+      "real_probability": 100.0,
+      "fake_probability": 0.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/199511.jpg",
+      "prediction": "REAL",
+      "confidence": 99.99,
+      "real_probability": 99.99,
+      "fake_probability": 0.01,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/199512.jpg",
+      "prediction": "REAL",
+      "confidence": 99.98,
+      "real_probability": 99.98,
+      "fake_probability": 0.02,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/199514.jpg",
+      "prediction": "REAL",
+      "confidence": 96.79,
+      "real_probability": 96.79,
+      "fake_probability": 3.21,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/199515.jpg",
+      "prediction": "REAL",
+      "confidence": 96.73,
+      "real_probability": 96.73,
+      "fake_probability": 3.27,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/199516.jpg",
+      "prediction": "REAL",
+      "confidence": 98.54,
+      "real_probability": 98.54,
+      "fake_probability": 1.46,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/199518.jpg",
+      "prediction": "REAL",
+      "confidence": 100.0,
+      "real_probability": 100.0,
+      "fake_probability": 0.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/199519.jpg",
+      "prediction": "REAL",
+      "confidence": 100.0,
+      "real_probability": 100.0,
+      "fake_probability": 0.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/199522.jpg",
+      "prediction": "REAL",
+      "confidence": 98.04,
+      "real_probability": 98.04,
+      "fake_probability": 1.96,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/199523.jpg",
+      "prediction": "REAL",
+      "confidence": 97.04,
+      "real_probability": 97.04,
+      "fake_probability": 2.96,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/20257964-woman-6009951_1920.JPG",
+      "prediction": "REAL",
+      "confidence": 100.0,
+      "real_probability": 100.0,
+      "fake_probability": 0.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/8198-1748102259.webp",
+      "prediction": "REAL",
+      "confidence": 100.0,
+      "real_probability": 100.0,
+      "fake_probability": 0.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/adityaroykapoor759.webp",
+      "prediction": "REAL",
+      "confidence": 97.14,
+      "real_probability": 97.14,
+      "fake_probability": 2.86,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/ani.JPG",
+      "prediction": "REAL",
+      "confidence": 100.0,
+      "real_probability": 100.0,
+      "fake_probability": 0.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/boss.jpeg",
+      "prediction": "REAL",
+      "confidence": 77.16,
+      "real_probability": 77.16,
+      "fake_probability": 22.84,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/Copy of 05.jpeg",
+      "prediction": "REAL",
+      "confidence": 100.0,
+      "real_probability": 100.0,
+      "fake_probability": 0.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/Copy of 08.jpeg",
+      "prediction": "REAL",
+      "confidence": 100.0,
+      "real_probability": 100.0,
+      "fake_probability": 0.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/Copy of me1.jpeg",
+      "prediction": "REAL",
+      "confidence": 90.24,
+      "real_probability": 90.24,
+      "fake_probability": 9.76,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/Copy of me3.jpeg",
+      "prediction": "REAL",
+      "confidence": 97.24,
+      "real_probability": 97.24,
+      "fake_probability": 2.76,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/Copy of sara-arjun-telugu-debut.webp",
+      "prediction": "REAL",
+      "confidence": 56.48,
+      "real_probability": 56.48,
+      "fake_probability": 43.52,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/hello.JPG",
+      "prediction": "REAL",
+      "confidence": 99.05,
+      "real_probability": 99.05,
+      "fake_probability": 0.95,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/images (1).jpeg",
+      "prediction": "REAL",
+      "confidence": 100.0,
+      "real_probability": 100.0,
+      "fake_probability": 0.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/images.jpeg",
+      "prediction": "REAL",
+      "confidence": 95.73,
+      "real_probability": 95.73,
+      "fake_probability": 4.27,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/IMG_20260519_222533.jpg",
+      "prediction": "REAL",
+      "confidence": 96.26,
+      "real_probability": 96.26,
+      "fake_probability": 3.74,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/kisan (1).jpeg",
+      "prediction": "REAL",
+      "confidence": 98.4,
+      "real_probability": 98.4,
+      "fake_probability": 1.6,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/me&a.jpeg.jpg",
+      "prediction": "REAL",
+      "confidence": 99.59,
+      "real_probability": 99.59,
+      "fake_probability": 0.41,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/paras.jpeg",
+      "prediction": "REAL",
+      "confidence": 73.92,
+      "real_probability": 73.92,
+      "fake_probability": 26.08,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/pexels-alex-green-5699868.jpg",
+      "prediction": "REAL",
+      "confidence": 100.0,
+      "real_probability": 100.0,
+      "fake_probability": 0.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/pexels-anntarazevich-7229120.jpg",
+      "prediction": "REAL",
+      "confidence": 100.0,
+      "real_probability": 100.0,
+      "fake_probability": 0.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/pexels-emilianovittoriosi-21792057.jpg",
+      "prediction": "REAL",
+      "confidence": 61.15,
+      "real_probability": 61.15,
+      "fake_probability": 38.85,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/pexels-lazarus-ziridis-2154851868-33427842.jpg",
+      "prediction": "REAL",
+      "confidence": 100.0,
+      "real_probability": 100.0,
+      "fake_probability": 0.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/pexels-leticiacurveloph-28185734.jpg",
+      "prediction": "REAL",
+      "confidence": 100.0,
+      "real_probability": 100.0,
+      "fake_probability": 0.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/Ranbir_Kapoor_snapped_at_Kalina_airport.jpg",
+      "prediction": "REAL",
+      "confidence": 98.44,
+      "real_probability": 98.44,
+      "fake_probability": 1.56,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/Screenshot 2026-05-29 165946.png",
+      "prediction": "REAL",
+      "confidence": 100.0,
+      "real_probability": 100.0,
+      "fake_probability": 0.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/Screenshot 2026-05-29 170152.png",
+      "prediction": "REAL",
+      "confidence": 99.57,
+      "real_probability": 99.57,
+      "fake_probability": 0.43,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/Screenshot 2026-05-29 170328.png",
+      "prediction": "REAL",
+      "confidence": 100.0,
+      "real_probability": 100.0,
+      "fake_probability": 0.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/shree.JPG",
+      "prediction": "REAL",
+      "confidence": 100.0,
+      "real_probability": 100.0,
+      "fake_probability": 0.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/tt.webp",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/v.webp",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/vk (1).webp",
+      "prediction": "FAKE",
+      "confidence": 100.0,
+      "real_probability": 0.0,
+      "fake_probability": 100.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/vv.webp",
+      "prediction": "REAL",
+      "confidence": 100.0,
+      "real_probability": 100.0,
+      "fake_probability": 0.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/WhatsApp Image 2026-05-21 at 10.21.03 (1).jpeg",
+      "prediction": "REAL",
+      "confidence": 100.0,
+      "real_probability": 100.0,
+      "fake_probability": 0.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/WhatsApp Image 2026-05-29 at 4.48.31 PM.jpeg",
+      "prediction": "REAL",
+      "confidence": 99.79,
+      "real_probability": 99.79,
+      "fake_probability": 0.21,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/WhatsApp Image 2026-05-29 at 4.50.21 PM.jpeg",
+      "prediction": "REAL",
+      "confidence": 92.72,
+      "real_probability": 92.72,
+      "fake_probability": 7.28,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/WhatsApp Image 2026-05-29 at 4.53.26 PM.jpeg",
+      "prediction": "REAL",
+      "confidence": 80.56,
+      "real_probability": 80.56,
+      "fake_probability": 19.44,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/WhatsApp Image 2026-05-29 at 5.50.00 PM.jpeg",
+      "prediction": "REAL",
+      "confidence": 100.0,
+      "real_probability": 100.0,
+      "fake_probability": 0.0,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/WIN_20260514_12_10_40_Pro.jpg",
+      "prediction": "REAL",
+      "confidence": 91.86,
+      "real_probability": 91.86,
+      "fake_probability": 8.14,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/WIN_20260515_10_47_12_Pro.jpg",
+      "prediction": "REAL",
+      "confidence": 90.94,
+      "real_probability": 90.94,
+      "fake_probability": 9.06,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/WIN_20260515_14_16_53_Pro.jpg",
+      "prediction": "REAL",
+      "confidence": 57.38,
+      "real_probability": 57.38,
+      "fake_probability": 42.62,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/WIN_20260527_12_23_03_Pro.jpg",
+      "prediction": "REAL",
+      "confidence": 80.95,
+      "real_probability": 80.95,
+      "fake_probability": 19.05,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/WIN_20260529_16_18_35_Pro.jpg",
+      "prediction": "REAL",
+      "confidence": 98.07,
+      "real_probability": 98.07,
+      "fake_probability": 1.93,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/WIN_20260529_16_19_51_Pro.jpg",
+      "prediction": "REAL",
+      "confidence": 99.72,
+      "real_probability": 99.72,
+      "fake_probability": 0.28,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/WIN_20260529_16_26_04_Pro.jpg",
+      "prediction": "REAL",
+      "confidence": 94.99,
+      "real_probability": 94.99,
+      "fake_probability": 5.01,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/WIN_20260529_16_27_02_Pro.jpg",
+      "prediction": "REAL",
+      "confidence": 93.36,
+      "real_probability": 93.36,
+      "fake_probability": 6.64,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/WIN_20260529_17_46_36_Pro.jpg",
+      "prediction": "REAL",
+      "confidence": 98.38,
+      "real_probability": 98.38,
+      "fake_probability": 1.62,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/WIN_20260530_12_26_41_Pro.jpg",
+      "prediction": "REAL",
+      "confidence": 92.24,
+      "real_probability": 92.24,
+      "fake_probability": 7.76,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/WIN_20260530_12_28_23_Pro.jpg",
+      "prediction": "REAL",
+      "confidence": 82.34,
+      "real_probability": 82.34,
+      "fake_probability": 17.66,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/WIN_20260530_12_29_07_Pro.jpg",
+      "prediction": "REAL",
+      "confidence": 89.29,
+      "real_probability": 89.29,
+      "fake_probability": 10.71,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/WIN_20260605_11_10_47_Pro.jpg",
+      "prediction": "REAL",
+      "confidence": 96.11,
+      "real_probability": 96.11,
+      "fake_probability": 3.89,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/WIN_20260608_12_34_25_Pro.jpg",
+      "prediction": "REAL",
+      "confidence": 99.18,
+      "real_probability": 99.18,
+      "fake_probability": 0.82,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/WIN_20260608_12_40_09_Pro.jpg",
+      "prediction": "REAL",
+      "confidence": 88.91,
+      "real_probability": 88.91,
+      "fake_probability": 11.09,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/WIN_20260608_12_45_18_Pro.jpg",
+      "prediction": "REAL",
+      "confidence": 59.81,
+      "real_probability": 59.81,
+      "fake_probability": 40.19,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/WIN_20260609_11_39_15_Pro.jpg",
+      "prediction": "REAL",
+      "confidence": 95.37,
+      "real_probability": 95.37,
+      "fake_probability": 4.63,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    },
+    {
+      "filename": "New Dataset/Test folder Zip/Test folder/Real/WIN_20260610_10_51_02_Pro.jpg",
+      "prediction": "REAL",
+      "confidence": 96.43,
+      "real_probability": 96.43,
+      "fake_probability": 3.57,
+      "ground_truth": "REAL",
+      "status": "success",
+      "error_detail": null
+    }
+  ]
+}

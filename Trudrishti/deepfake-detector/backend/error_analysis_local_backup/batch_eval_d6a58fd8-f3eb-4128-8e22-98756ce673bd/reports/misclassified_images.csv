@@ -1,0 +1,6 @@
+batch_id,timestamp,filename,ground_truth,prediction,confidence,error_type
+eval_d6a58fd8-f3eb-4128-8e22-98756ce673bd,2026-06-18T10:46:26.428110,real/img2.jpg,REAL,FAKE,1.0,FALSE_POSITIVE
+eval_d6a58fd8-f3eb-4128-8e22-98756ce673bd,2026-06-18T10:46:26.428110,real/img4.jpg,REAL,FAKE,1.0,FALSE_POSITIVE
+eval_d6a58fd8-f3eb-4128-8e22-98756ce673bd,2026-06-18T10:46:26.428110,real/img5.jpg,REAL,FAKE,1.0,FALSE_POSITIVE
+eval_d6a58fd8-f3eb-4128-8e22-98756ce673bd,2026-06-18T10:46:26.428110,fake/img6.webp,FAKE,REAL,1.0,FALSE_NEGATIVE
+eval_d6a58fd8-f3eb-4128-8e22-98756ce673bd,2026-06-18T10:46:26.428110,fake/img8.webp,FAKE,REAL,1.0,FALSE_NEGATIVE

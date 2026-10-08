@@ -1,0 +1,9 @@
+batch_id,timestamp,filename,ground_truth,prediction,confidence,error_type
+eval_0640e077-a4ac-4118-a80a-a5c4a29e9ba9,2026-06-16T11:09:31.745361,Test folder/Fake/Copy of 24.jpeg,FAKE,REAL,0.9953,FALSE_NEGATIVE
+eval_0640e077-a4ac-4118-a80a-a5c4a29e9ba9,2026-06-16T11:09:31.745361,Test folder/Fake/Copy of 2d.jpeg,FAKE,REAL,0.9978,FALSE_NEGATIVE
+eval_0640e077-a4ac-4118-a80a-a5c4a29e9ba9,2026-06-16T11:09:31.745361,Test folder/Fake/Copy of 2r211.jpeg,FAKE,REAL,0.9003,FALSE_NEGATIVE
+eval_0640e077-a4ac-4118-a80a-a5c4a29e9ba9,2026-06-16T11:09:31.745361,Test folder/Fake/Copy of 2r2r.jpeg,FAKE,REAL,0.9934,FALSE_NEGATIVE
+eval_0640e077-a4ac-4118-a80a-a5c4a29e9ba9,2026-06-16T11:09:31.745361,Test folder/Fake/Copy of 32.jpeg,FAKE,REAL,0.6759,FALSE_NEGATIVE
+eval_0640e077-a4ac-4118-a80a-a5c4a29e9ba9,2026-06-16T11:09:31.745361,Test folder/Real/tt.webp,REAL,FAKE,1.0,FALSE_POSITIVE
+eval_0640e077-a4ac-4118-a80a-a5c4a29e9ba9,2026-06-16T11:09:31.745361,Test folder/Real/v.webp,REAL,FAKE,1.0,FALSE_POSITIVE
+eval_0640e077-a4ac-4118-a80a-a5c4a29e9ba9,2026-06-16T11:09:31.745361,Test folder/Real/vk (1).webp,REAL,FAKE,1.0,FALSE_POSITIVE

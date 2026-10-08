@@ -1,0 +1,10 @@
+filename,prediction,ground_truth,confidence,real_probability,fake_probability
+New Dataset/Test folder Zip/Test folder/Fake/Copy of 24.jpeg,REAL,FAKE,99.53,99.53,0.47
+New Dataset/Test folder Zip/Test folder/Fake/Copy of 2d.jpeg,REAL,FAKE,99.78,99.78,0.22
+New Dataset/Test folder Zip/Test folder/Fake/Copy of 2r211.jpeg,REAL,FAKE,90.03,90.03,9.97
+New Dataset/Test folder Zip/Test folder/Fake/Copy of 2r2r.jpeg,REAL,FAKE,99.34,99.34,0.66
+New Dataset/Test folder Zip/Test folder/Fake/Copy of 32.jpeg,REAL,FAKE,67.59,67.59,32.41
+New Dataset/Test folder Zip/Test folder/Fake/Copy of Face (90).jpeg,REAL,FAKE,83.8,83.8,16.2
+New Dataset/Test folder Zip/Test folder/Real/tt.webp,FAKE,REAL,100.0,0.0,100.0
+New Dataset/Test folder Zip/Test folder/Real/v.webp,FAKE,REAL,100.0,0.0,100.0
+New Dataset/Test folder Zip/Test folder/Real/vk (1).webp,FAKE,REAL,100.0,0.0,100.0

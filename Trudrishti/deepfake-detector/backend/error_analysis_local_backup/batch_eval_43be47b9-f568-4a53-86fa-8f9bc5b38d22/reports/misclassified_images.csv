@@ -1,0 +1,9 @@
+batch_id,timestamp,filename,ground_truth,prediction,confidence,error_type
+eval_43be47b9-f568-4a53-86fa-8f9bc5b38d22,2026-06-16T10:53:42.262096,Test folder Zip/Test folder/Fake/Copy of 24.jpeg,FAKE,REAL,0.9953,FALSE_NEGATIVE
+eval_43be47b9-f568-4a53-86fa-8f9bc5b38d22,2026-06-16T10:53:42.262096,Test folder Zip/Test folder/Fake/Copy of 2d.jpeg,FAKE,REAL,0.9978,FALSE_NEGATIVE
+eval_43be47b9-f568-4a53-86fa-8f9bc5b38d22,2026-06-16T10:53:42.262096,Test folder Zip/Test folder/Fake/Copy of 2r211.jpeg,FAKE,REAL,0.9003,FALSE_NEGATIVE
+eval_43be47b9-f568-4a53-86fa-8f9bc5b38d22,2026-06-16T10:53:42.262096,Test folder Zip/Test folder/Fake/Copy of 2r2r.jpeg,FAKE,REAL,0.9934,FALSE_NEGATIVE
+eval_43be47b9-f568-4a53-86fa-8f9bc5b38d22,2026-06-16T10:53:42.262096,Test folder Zip/Test folder/Fake/Copy of 32.jpeg,FAKE,REAL,0.6759,FALSE_NEGATIVE
+eval_43be47b9-f568-4a53-86fa-8f9bc5b38d22,2026-06-16T10:53:42.262096,Test folder Zip/Test folder/Real/tt.webp,REAL,FAKE,1.0,FALSE_POSITIVE
+eval_43be47b9-f568-4a53-86fa-8f9bc5b38d22,2026-06-16T10:53:42.262096,Test folder Zip/Test folder/Real/v.webp,REAL,FAKE,1.0,FALSE_POSITIVE
+eval_43be47b9-f568-4a53-86fa-8f9bc5b38d22,2026-06-16T10:53:42.262096,Test folder Zip/Test folder/Real/vk (1).webp,REAL,FAKE,1.0,FALSE_POSITIVE

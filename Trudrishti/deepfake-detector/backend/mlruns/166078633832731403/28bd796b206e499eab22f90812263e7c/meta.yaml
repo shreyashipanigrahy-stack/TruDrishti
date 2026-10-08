@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/91801/OneDrive/Desktop/TruDrishti version 01/Trudrishti/deepfake-detector/backend/mlruns/166078633832731403/28bd796b206e499eab22f90812263e7c/artifacts
+end_time: 1781849707348
+entry_point_name: ''
+experiment_id: '166078633832731403'
+lifecycle_stage: active
+run_id: 28bd796b206e499eab22f90812263e7c
+run_name: training_v1_20260619_061502
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1781849702779
+status: 3
+tags: []
+user_id: '91801'
